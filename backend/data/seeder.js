@@ -7,7 +7,7 @@ const foods = [
   // Burgers (unhealthy - red zone)
   {
     name: "Classic Burger",
-    description: "Juicy beef patty with lettuce, tomato, onion, and special sauce in a brioche bun",
+    description: "Juicy patty with lettuce, tomato, onion, and special sauce in a brioche bun",
     price: 149,
     category: "Burgers",
     image: "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=400",
@@ -451,7 +451,7 @@ const foods = [
     description: "Lightly spiced lotus seeds roasted with ghee and herbs",
     price: 79,
     category: "Snacks",
-    image: "https://images.unsplash.com/photo-1606755962773-d324e0a13086?w=400",
+    image: "https://t3.ftcdn.net/jpg/10/04/69/08/240_F_1004690825_6TdPQ9EzKZOL2Hjv7HVFRMK2ArRne16Y.jpg",
     healthScore: 8,
     calories: 160,
     protein: 9,
