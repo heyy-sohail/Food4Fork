@@ -1,0 +1,119 @@
+.orders-page {
+  min-height: 100vh;
+  padding: 100px 0 60px;
+}
+
+.orders-page .container { padding: 0 24px; }
+
+.orders-header {
+  margin-bottom: 32px;
+}
+
+.orders-header h1 { font-size: 2rem; font-weight: 800; margin-bottom: 6px; }
+.orders-header p { color: var(--text-muted); font-size: 0.9rem; }
+
+.orders-list { display: flex; flex-direction: column; gap: 20px; }
+
+.order-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  transition: border-color 0.2s;
+}
+
+.order-card:hover { border-color: rgba(255,107,53,0.3); }
+
+.order-card-header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 16px 20px;
+  border-bottom: 1px solid var(--border);
+  background: rgba(255,255,255,0.02);
+  flex-wrap: wrap;
+}
+
+.order-id { display: flex; flex-direction: column; }
+.order-label { font-size: 0.72rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.5px; }
+.order-num { font-size: 0.95rem; font-weight: 700; font-family: monospace; }
+
+.order-status {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 5px 12px;
+  border-radius: 50px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  border: 1px solid;
+}
+
+.order-date {
+  margin-left: auto;
+  font-size: 0.82rem;
+  color: var(--text-muted);
+}
+
+.order-items-list {
+  padding: 16px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.order-line {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 0.875rem;
+  flex-wrap: wrap;
+}
+
+.order-item-name { font-weight: 500; flex: 1; min-width: 120px; }
+.order-item-qty { color: var(--text-muted); flex-shrink: 0; }
+.order-item-price { font-weight: 700; margin-left: auto; flex-shrink: 0; }
+
+.order-card-footer {
+  padding: 14px 20px;
+  border-top: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+  background: rgba(255,255,255,0.01);
+}
+
+.order-health-summary {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.82rem;
+  color: var(--text-muted);
+}
+
+.order-health-summary strong { font-size: 1rem; }
+
+.order-total-line {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+.order-grand-total { font-size: 1.1rem; font-weight: 800; color: var(--text); }
+
+.empty-orders {
+  text-align: center;
+  padding: 80px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.empty-orders span { font-size: 4rem; }
+.empty-orders h3 { font-size: 1.2rem; font-weight: 700; }
+.empty-orders p { color: var(--text-muted); }
