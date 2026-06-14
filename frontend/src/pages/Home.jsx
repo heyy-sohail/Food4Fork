@@ -25,7 +25,7 @@ const Home = () => {
           <div className="hero-blob blob-3" />
         </div>
         <div className="container hero-content">
-          <div className="hero-tag">🚀 Hyderabad's Smartest Food App</div>
+          <div className="hero-tag">Hyderabad's Smartest Food App</div>
           <h1 className="hero-title">
             Eat <span className="highlight">Healthy.</span>
             <br />Spend <span className="highlight">Smart.</span>
@@ -44,7 +44,7 @@ const Home = () => {
             </Link>
           </div>
           <div className="hero-stats">
-            <div className="stat"><span>500+</span><p>Dishes</p></div>
+            <div className="stat"><span>30+</span><p>Dishes</p></div>
             <div className="stat-divider" />
             <div className="stat"><span>4.8★</span><p>Rating</p></div>
             <div className="stat-divider" />
@@ -130,7 +130,7 @@ const Home = () => {
       <section className="cta-banner container">
         <div className="cta-inner">
           <div className="cta-text">
-            <h2>Set your daily food budget 🎯</h2>
+            <h2>Set your daily food budget </h2>
             <p>Tell us how much you want to spend and we'll show the best meals under your limit.</p>
           </div>
           <Link to="/budget" className="btn-primary">
@@ -147,7 +147,7 @@ const Home = () => {
             <span>Food<span style={{ color: "var(--primary)" }}>4</span>Fork</span>
           </div>
           <p className="footer-tagline">Eat Healthy. Spend Smart. Waste Less.</p>
-          <p className="footer-copy">© 2024 Food4Fork. Built with ❤️ in Hyderabad.</p>
+          <p className="footer-copy">© 2026 Food4Fork. Built by <b>Sohail Azain</b>.</p>
         </div>
       </footer>
     </div>
